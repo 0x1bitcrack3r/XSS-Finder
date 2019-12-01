@@ -1,6 +1,7 @@
 # F.A.Q
 
-# ScreamingCobra
+# XSS-Finder
+- Codename: ScreamingCobra
 - Swiss knife for XSS on any URI
 - XSS Fuzzer & Finder
 - Any logic is valid logic in this software
@@ -36,9 +37,12 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 
 # Appeared
 - https://blog.kelvinsecurity.com/2019/09/23/ultimate-swiss-knife-for-finding-xss-in-parameters-uri-url-urn-and-post-based-fuzzing/
-- https://twitter.com/defsecnsattack/status/1189936304374591488
+- Hacker's Life
 
-# Official Video and Tutorial
+# Tweets
+- Over, 1000+ tweets
+
+# Official Video
 - https://www.youtube.com/watch?v=7zHmizAjQ4o
 
 # Kali Installation
