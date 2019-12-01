@@ -35,6 +35,12 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - Exploit: http://example.com?name=Tim#<script>alert(42)</script>
 - Result: Hello Tim#<script>alert(42)</script>!
 
+# Payload Information
+- Copy paste your payload direct into payload file
+- False positive occurs, when file have hidden cr,lf,tb,etc characters
+- Be sure your payload file is properly made 
+
+
 # Appeared
 - https://blog.kelvinsecurity.com/2019/09/23/ultimate-swiss-knife-for-finding-xss-in-parameters-uri-url-urn-and-post-based-fuzzing/
 - Hacker's Life
@@ -63,11 +69,10 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - ./interface.sh
 
 # Compatible
-- Android Led TV, Termux, Linux, Windows using cygwin
-
-# Versions
-- Version 1 is a normal version
-- Version 2 is a Dom Experimental version
+- Android Led TV
+- Termux
+- Linux
+- Windows using cygwin
 
 
 # URI, URL, Parameters Payloads
@@ -82,11 +87,8 @@ The hash (#) character in a URI denotes the beginning of a URI fragment. Accordi
 - https://example.com.pk/pages/
 - https://example.com.pk/pages.php?id#
 
+# Contact
+- mrharoonawna@gmail.com
 
-# XSS Payload Files
-- payload
-- dompayload
-
-# Increasing XSS Payload Files
-- copy paste your payload direct into payload file
-- copy pastge your dom payload direct into dompayload file
+# Sponsor & Support via BTC
+- 3BuUYgEgsRuEra4GwqNVLKnDCTjLEDfptu
