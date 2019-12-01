@@ -9,8 +9,11 @@
 # License
 - EULA
 
-# Running
+# Installation
 - chmod u+x *
+- ./Kali_Installer.sh
+
+# Run
 - ./interface.sh
 
 # Screenshot
