@@ -2,8 +2,7 @@
 
 # XSS-Finder
 - Codename: ScreamingCobra
-- Swiss knife for XSS on any URI
-- XSS Fuzzer & Finder
+- Swiss knife for XSS on any URI / URN / PATH
 - Any logic is valid logic in this software
 
 # License
@@ -12,9 +11,11 @@
 # Installation
 - chmod u+x *
 - ./Kali_Installer.sh
+- It will become system software
 
 # Run
-- ./interface.sh
+- ScreamingCobra
+- or local directory ./interface.sh
 
 # Screenshot
 <div align="center">
