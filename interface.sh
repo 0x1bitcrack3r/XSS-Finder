@@ -14,13 +14,6 @@ echo "      Loader      : XSS Finder, ver 1.9a
 "
 }
 banner
-echo -e "$red [$green+$red] 1:$off Linux Users"; 
-echo -e "$red [$green+$red] 2:$off Termux Users";
-echo "";
-echo -ne "$red [$green+$red] Select An Option:$off: " ;
-read Option
-if [ $Option -eq "1" ]
-then 
  echo "";
  echo -e "$red [$green+$red]  1:$off Normal Version "; 
  echo -e "$red [$green+$red]  2:$off Dom Case Version ";
@@ -325,4 +318,3 @@ then
 then
 ./cached.sh  
  fi 
-fi      
