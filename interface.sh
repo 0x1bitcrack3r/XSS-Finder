@@ -10,7 +10,7 @@ function banner() {
 echo "      Loader      : XSS Finder, ver 1.9a
       Programmers : Shadab Siddique, Haroon Awan, HackerUniversee
       Web         : fb.com/mubassir.py - fb.com/officialharoonawan
-      Channels    : youtube.com/hackeruniversee
+      Channel     : youtube.com/c/HackerUniverse
 "
 }
 banner
