@@ -1,8 +1,7 @@
 # F.A.Q
 
 # XSS-Finder
-- Codename: ScreamingCobra
-- Swiss knife for XSS on any URI / URN / PATH
+- Swiss knife for XSS on any Path to any kind of XSS
 - Any logic is valid logic in this software
 
 # License
