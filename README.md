@@ -38,13 +38,11 @@
 - HTTP Referer XSS
 - HTTP Cookies XSS
 - HTTP Location XSS
-- Dump Values of Server
-
+- Dump server values (server parameters, forms, etc)
 
 # Dom Scanner for Sinks
 - Example: <script> var x = document.URL.substring(document.URL.indexOf("name=")+5);document.write(name + "!"); </script>
 - Exploit: http://example.com?name=Tim#<script>alert(42)</script>
-- Result: Hello Tim#<script>alert(42)</script>!
 
 # Payloads
 - Use payloads, update payloads, add more payloads
