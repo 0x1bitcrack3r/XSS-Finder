@@ -79,7 +79,7 @@
 - Windows using cygwin
 
 
-# Fuzz Logic
+# Fuzzy Logic
 - https://example.com.pk/pages.php?id=
 - https://example.com.pk/pages.php?id=id=id=id=
 - https://example.com.pk/pages.php#
