@@ -1,8 +1,7 @@
 # F.A.Q
 
 # XSS-Finder
-- Codename: ScreamingCobra
-- Swiss knife for XSS on any URI / URN / PATH
+- Swiss knife for XSS on any URL,URI,URN,Path,Directory,Parameter,etc
 - Any logic is valid logic in this software
 
 # License
@@ -14,18 +13,24 @@
 - It will become system software
 
 # Run
-- ScreamingCobra
+- Enter in Terminal: ScreamingCobra
 - or local directory ./interface.sh
 
 # Screenshot
 <div align="center">
-    <img src="https://i.ibb.co/xgSzyKq/screamingcobra.png" width="600px"</img> 
+    <img src="https://i.ibb.co/4t9Wm0w/xssfinder1.png" width="600px"</img> 
 </div>
 
 # Screenshot
 <div align="center">
-    <img src="https://i.ibb.co/HFCnszs/Screenshot-from-2019-08-21-23-05-41.png" width="600px"</img> 
+    <img src="https://i.ibb.co/Pg3H3g6/Xssfinder2.png" width="600px"</img> 
 </div>
+
+# Screenshot
+<div align="center">
+    <img src="https://i.ibb.co/sJWbhd8/XSSfinder3.png" width="600px"</img> 
+</div>
+
 
 # DOM Based
 <div align="center">
