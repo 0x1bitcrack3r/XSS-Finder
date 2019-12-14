@@ -8,8 +8,7 @@
 - EULA
 
 # Installation & Run
-- Run Installers
-- Enter in terminal: ScreamingCobra
+- Run Installers & enter in terminal: ScreamingCobra
 
 
 # Screenshots
@@ -63,23 +62,16 @@
 - https://www.youtube.com/watch?v=7zHmizAjQ4o
 
 # Kali Installation
-- chmod u+x Kali_Installer.sh
-- ./Kali_Installer.sh
+- chmod u+x Kali_Installer.ss && ./Kali_Installer.sh
 
 # Parrot_OS Installation
-- chmod u+x Parrot_Os_Installer.sh
-- ./Parrot_Os_Installer.sh
+- chmod u+x Parrot_Os_Installer.sh && ./Parrot_Os_Installer.sh
 
 # Termux Installation & Running
-- chmod u+x Termux_Installer.sh
-- ./interface.sh
+- chmod u+x Termux_Installer.sh && ./interface.sh
 
 # Compatible
-- Android Led TV
-- Termux
-- Linux
-- Windows using cygwin
-
+- Android Led TV, Termux, Linux, Unix, Windows 
 
 # Fuzzy Logic
 - https://example.com.pk/pages.php?id=
@@ -87,6 +79,10 @@
 - https://example.com.pk/pages.php#
 - https://example.com.pk/pages/
 - https://example.com.pk/pages.php?id#
+- Parameters, Forms, Code Values using exclusive curl payloads
+
+# Update Code
+- Exapandable, code can be expand or update from time to time
 
 # Contact
 - mrharoonawna@gmail.com
