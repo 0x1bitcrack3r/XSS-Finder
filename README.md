@@ -39,11 +39,15 @@
 - HTTP Referer XSS
 - HTTP Cookies XSS
 - HTTP Location XSS
-- Dump server values (server parameters, forms, etc)
+- Dump server values 
+
+# Dumping and Recoder Information
+- Dumper can dump server parameters, forms, etc
+- Recoder will record response in result file
+- Use grep to check reflections
 
 # Dom Scanner for Sinks
 - Example: <script> var x = document.URL.substring(document.URL.indexOf("name=")+5);document.write(name + "!"); </script>
-- Exploit: http://example.com?name=Tim#<script>alert(42)</script>
 
 # Payloads
 - Use payloads, update payloads, add more payloads
