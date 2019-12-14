@@ -65,13 +65,9 @@
 # Official Video
 - https://www.youtube.com/watch?v=7zHmizAjQ4o
 
-# Kali Installation
+# Kali, ParrotOS, Termux Installation 
 - chmod u+x Kali_Installer.ss && ./Kali_Installer.sh
-
-# Parrot_OS Installation
 - chmod u+x Parrot_Os_Installer.sh && ./Parrot_Os_Installer.sh
-
-# Termux Installation & Running
 - chmod u+x Termux_Installer.sh && ./interface.sh
 
 # Compatible
@@ -86,7 +82,7 @@
 - Parameters, Forms, Code Values using exclusive curl payloads
 
 # Update Code
-- Exapandable, code can be expand or update from time to time
+- Code can be update and expand from time to time
 
 # Contact
 - mrharoonawna@gmail.com
