@@ -7,9 +7,11 @@ off="\e[0m"
 
 clear
 function banner() {
-echo "	Screaming Cobra Loader / version 1.0a
-        Programmer: Shadab Siddique / Coders: Haroon Awan
-        Termux Script - HackerUniversee"
+echo "      Loader      : XSS Finder, ver 1.9a
+      Programmers : Shadab Siddique, Haroon Awan, HackerUniversee
+      Web         : fb.com/mubassir.py - fb.com/officialharoonawan
+      Channels    : youtube.com/hackeruniversee
+"
 }
 banner
 echo -e "$red [$green+$red] 1:$off Linux Users"; 
@@ -288,8 +290,8 @@ echo -e "$red [$green+$red] 1:$off HTTP Referer XSS Version  ";
 echo -e "$red [$green+$red] 2:$off HTTP Cookie XSS Version ";
 echo -e "$red [$green+$red] 3:$off HTP User-Agent XSS Version  ";
 echo -e "$red [$green+$red] 4:$off HTTP Host XSS Version ";
-echo -ne "$red [$green+$red] Select An Option:$off: " ;
 echo "";
+echo -ne "$red [$green+$red] Select An Option:$off: " ;
 read Option 
  if [ $Option -eq "1" ]
 then
