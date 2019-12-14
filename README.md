@@ -1,7 +1,7 @@
 # F.A.Q
 
 # XSS-Finder
-- Swiss knife for XSS on any Path to any kind of XSS
+- Swiss knife for XSS on any Path of any XSS
 - Useful for Newbies to Pro
 
 # License
