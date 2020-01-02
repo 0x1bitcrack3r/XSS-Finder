@@ -2,7 +2,7 @@
 
 # XSS-Finder
 - World's Most Powerful and Advanced Cross Site Scripting Software
-- Find XSS on any path of URL, URI, URN, Directory, Hashed Dom Link, Dom Sink or Parameter
+- Find XSS on any path of URL, URI, URN, Forms, Directory, Hashed Dom Link, Dom Sink or Parameter
 - Useful for Newbies to Pro
 
 # License
@@ -35,12 +35,17 @@
 - Special Java XSS payloads
 - Cached Pages XSS
 - Form Based XSS
+- Dom Sink
+- Dom Hashed Link
 - HTTP Link XSS
 - HTTP Host XSS
 - HTTP Referer XSS
 - HTTP Cookies XSS
 - HTTP Location XSS
-- Dump server values 
+- HTTP Trace
+- HTTP Trace with fake headers
+- Dump server values for Forms
+- Dump server values for Parameters
 
 # Dumping and Recoder Information
 - Dumper can dump server parameters, forms, etc
