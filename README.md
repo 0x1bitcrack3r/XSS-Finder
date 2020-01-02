@@ -35,15 +35,16 @@
 - Special Java XSS payloads
 - Cached Pages XSS
 - Form Based XSS
-- Dom Sink
-- Dom Hashed Link
+- Find Dom Sinks
+- Dom Hashed Link XSS
+- Dom Hashed Sink XSS
 - HTTP Link XSS
 - HTTP Host XSS
 - HTTP Referer XSS
 - HTTP Cookies XSS
 - HTTP Location XSS
-- HTTP Trace
-- HTTP Trace with fake headers
+- HTTP Trace XSS
+- HTTP Trace with fake headers XSS
 - Dump server values for Forms
 - Dump server values for Parameters
 
