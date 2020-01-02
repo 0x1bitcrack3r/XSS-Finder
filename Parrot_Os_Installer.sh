@@ -91,6 +91,7 @@ pip install mechanize
 pip install jsbeautifier
 pip install argparse
 pip install requests
+gem install watir
 pip install request
 sudo virtualenv --python="2" env
 sudo env/bin/activate
