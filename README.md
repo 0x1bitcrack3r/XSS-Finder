@@ -26,6 +26,7 @@
 
 
 # Features
+- Host Blind XSS Server
 - Blind XSS
 - Stored XSS using File
 - Persistent XSS using File
@@ -47,6 +48,12 @@
 - HTTP Trace with fake headers XSS
 - Dump server values for Forms
 - Dump server values for Parameters
+
+# Blind XSS Server
+- Host Blind xss server in your pc with outbound to inbound connection
+
+# Blind XSS File
+- Change values in blind xss file according to your own needs
 
 # Dumping and Recoder Information
 - Dumper can dump server parameters, forms, etc
