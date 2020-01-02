@@ -64,6 +64,19 @@ fi
 
      if [ $Option -eq "2" ]
  then
+ echo -e "$red [$green+$red] 1:$off ScreamingCobra Automatic Browser Based Dom Scanner  ";
+ echo -e "$red [$green+$red] 2:$off ScreamingCobra DOM Python (Experimental)  ";
+ echo "";
+ echo -ne "$red [$green+$red] Select An Option:$off: " ;
+ read Option
+    if [ $Option -eq "1" ]
+then
+ echo -ne "$red [$green+$red] Enter Absolute URL of Victim:$off: "
+ read victim
+ ruby dom.rb dompayload $victim"DOM"
+fi
+     if [ $Option -eq "2" ]
+ then
  echo -e "$red [$green+$red] 1:$off ScreamingCobra 2 GET Version  ";
  echo -e "$red [$green+$red] 2:$off ScreamingCobra 2 POST Version  ";
  echo -e "$red [$green+$red] 3:$off ScreamingCobra 2 HEAD Version  ";
@@ -92,7 +105,7 @@ then
 fi
 
     fi
-
+fi
 
      if [ $Option -eq "3" ]
  then
