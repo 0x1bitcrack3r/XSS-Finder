@@ -46,8 +46,15 @@
 - Recoder will record response in result file
 - Use grep to check reflections
 
-# Dom Scanner for Sinks
+# Full Live Dom Scanner for Sinks
+- Live Dom scanner on websites for dom sinks with notification
+
+# Automatic Dom XSS Scanner on Hash 
+- Automatic Dom XSS Scanner will automatic scan XSS on any found Sink or link
+
+# Dom XSS Scanner for Sink or Direct URL Scanner
 - Example: <script> var x = document.URL.substring(document.URL.indexOf("name=")+5);document.write(name + "!"); </script>
+- Example: https://www.example.com/index.php?name=test# <- automatic injection here at HASH
 
 # Payloads
 - Use payloads, update payloads, add more payloads
