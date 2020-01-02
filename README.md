@@ -1,7 +1,8 @@
 # F.A.Q
 
 # XSS-Finder
-- Swiss knife for XSS on any Path of any XSS
+- World's Most Powerful and Advanced Cross Site Scripting Software
+- Find XSS on any path of URL, URI, URN, Directory, Hashed Dom Link, Dom Sink or Parameter
 - Useful for Newbies to Pro
 
 # License
