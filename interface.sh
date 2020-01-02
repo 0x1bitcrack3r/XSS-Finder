@@ -23,7 +23,7 @@ banner
  echo -e "$red [$green+$red]  6:$off Show File Upload XSS Version";
  echo -e "$red [$green+$red]  7:$off Blind XSS Version ";
  echo -e "$red [$green+$red]  8:$off Blind XSS Server ";
- echo -e "$red [$green+$red]  9:$off Cookies/Referer/Host/Link/Location XSS Tempering Version";
+ echo -e "$red [$green+$red]  9:$off Cookies/Link/Referer/User-Agent/Host/Location/Trace XSS";
  echo -e "$red [$green+$red] 10:$off Dump Values of Server";
  echo -e "$red [$green+$red] 11:$off Live Dom Sink Scanner - Third Party Tool";
  echo -e "$red [$green+$red] 12:$off Cached Page XSS ";
@@ -292,29 +292,45 @@ fi
       
 if [ $Option -eq "9" ]
 then
-echo -e "$red [$green+$red] 1:$off HTTP Referer XSS Version  ";
-echo -e "$red [$green+$red] 2:$off HTTP Cookie XSS Version ";
-echo -e "$red [$green+$red] 3:$off HTP User-Agent XSS Version  ";
-echo -e "$red [$green+$red] 4:$off HTTP Host XSS Version ";
+echo -e "$red [$green+$red] 1:$off HTTP Cookie XSS Version  ";
+echo -e "$red [$green+$red] 2:$off HTTP Link XSS Version ";
+echo -e "$red [$green+$red] 3:$off HTP Referer XSS Version  ";
+echo -e "$red [$green+$red] 4:$off HTTP User-Agent XSS Version ";
+echo -e "$red [$green+$red] 5:$off HTTP Host XSS Version  ";
+echo -e "$red [$green+$red] 6:$off HTTP Location XSS Version ";
+echo -e "$red [$green+$red] 7:$off HTP Trace XSS Version  ";
 echo "";
 echo -ne "$red [$green+$red] Select An Option:$off: " ;
 read Option 
  if [ $Option -eq "1" ]
 then
-./HTTPReferer.sh
+./HTTPcookie.sh
   fi 
  if [ $Option -eq "2" ]
 then
-./HTTPcookie.sh
+./HTTPlink.sh
   fi 
  if [ $Option -eq "3" ]
 then
-./HTTPUSER-AGENT.sh
+./HTTPReferer.sh
   fi 
  if [ $Option -eq "4" ]
 then
+./HTTPUSER-AGENT.sh
+  fi 
+ if [ $Option -eq "5" ]
+then
 ./HTTPHost.sh
   fi 
+ if [ $Option -eq "6" ]
+then
+./HTTPlocation.sh
+  fi 
+ if [ $Option -eq "7" ]
+then
+./HTTPTrace.sh
+  fi 
+
 fi
 
  if [ $Option -eq "10" ]
