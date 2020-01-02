@@ -37,6 +37,8 @@ echo -e "Installing Modules"
 pip2 install -r requirements.txt
 pip2 install httplib2
 pip2 install mechanize
+apt-get instgall gem
+gem install watir
 
 echo -e "[+] Installed Success!";
 echo -e "[+] Reboot Termux";
