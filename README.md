@@ -52,9 +52,9 @@
 # Automatic Dom XSS Scanner on Hash 
 - Automatic Dom XSS Scanner will automatic scan XSS on any found Sink or link
 
-# Dom XSS Scanner for Sink or Direct URL Scanner
+# Dom Sink or Link Example
 - Example: <script> var x = document.URL.substring(document.URL.indexOf("name=")+5);document.write(name + "!"); </script>
-- Example: https://www.example.com/index.php?name=test# <- automatic injection here at HASH
+- Example: https://www.example.com/index.php?name=test# <- Software will inject payloads after HASH using firefox
 
 # Payloads
 - Use payloads, update payloads, add more payloads
