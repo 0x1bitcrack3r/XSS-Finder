@@ -22,6 +22,10 @@
 
 clear
 
+#!/bin/bash
+
+clear
+
 echo "[-] XSS Scanner and Finder, ver 1.0a";   
 echo "[+] Termux Installer By: Haroon Awan";
 echo "[+] Coded By: Haroon Awan";
@@ -39,6 +43,9 @@ pip2 install httplib2
 pip2 install mechanize
 pkg install ruby
 gem install watir
+gem install selenium-webdriver
+gem install selenium
+selenium install
 
 echo -e "[+] Installed Success!";
 echo -e "[+] Reboot Termux";
