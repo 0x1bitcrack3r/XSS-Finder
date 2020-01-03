@@ -86,12 +86,16 @@ interface.sh > "ScreamingCobra";
     chmod u+x "/usr/local/bin/ScreamingCobra";
 
 echo -e "$red [$green+$red]$off Installing dependencies..."
+apt-get install ruby
+apt-get install gem
+gem install selenium-webdriver
+gem install selenium
+selenium install
 pip install httplib2
 pip install mechanize
 pip install jsbeautifier
 pip install argparse
 pip install requests
-gem install watir
 pip install request
 sudo virtualenv --python="2" env
 sudo env/bin/activate
