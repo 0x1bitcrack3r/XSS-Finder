@@ -44,6 +44,11 @@ function linux() {
 echo -e "$red [$green+$red]$off Installing Python ...";
 pip install python2.7
 echo -e "$red [$green+$red]$off Installing Modules ...";
+apt-get install ruby
+apt-get install gem
+gem install selenium-webdriver
+gem install selenium
+selenium install
 pip install -r requirements.txt
 pip install httplib2
 pip install mechanize
@@ -90,9 +95,12 @@ echo -e "$red [$green+$red]$off Installing dependencies..."
 pip install httplib2
 pip install mechanize
 pip install jsbeautifier
+gem install watir
+gem install selenium-webdriver
+gem install selenium
+selenium install
 pip install argparse
 pip install requests
-gem install watir
 pip install request
 sudo virtualenv --python="2" env
 sudo env/bin/activate
