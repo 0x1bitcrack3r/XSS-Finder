@@ -43,6 +43,7 @@ pip2 install httplib2
 pip2 install mechanize
 pkg install ruby
 gem install watir
+gem install launchy
 gem install selenium-webdriver
 gem install selenium
 selenium install
