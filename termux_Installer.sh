@@ -51,4 +51,4 @@ selenium install
 
 echo -e "[+] Installed Success!";
 echo -e "[+] Reboot Termux";
-echo -e "[+] Upon successful reboot enter, type interface.sh";
+echo -e "[+] Upon successful reboot enter, type termuxinterface.sh";
