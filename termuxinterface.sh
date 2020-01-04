@@ -8,10 +8,10 @@ off="\e[0m"
 clear
 function banner() {
 echo "      
-Loader      : XSS Finder & Scanner, Termux ver 1.9a
-Programmers : Shadab Siddique, Haroon Awan, HackerUniversee
-Web         : fb.com/mubassir.py - fb.com/officialharoonawan
-Channel     : youtube.com/c/HackerUniverse
+Loader  : XSS Finder & Scanner, Termux ver 1.9a
+Coders  : Shadab Siddique, Haroon Awan, HackerUniversee
+Web     : fb.com/mubassir.py, fb.com/officialharoonawan
+Channel : youtube.com/c/HackerUniverse
 "
 }
 banner
