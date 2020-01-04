@@ -86,10 +86,18 @@
 # Official Video
 - https://www.youtube.com/watch?v=7zHmizAjQ4o
 
-# Kali, ParrotOS, Termux Installation 
-- chmod u+x Kali_Installer.ss && ./Kali_Installer.sh
-- chmod u+x Parrot_Os_Installer.sh && ./Parrot_Os_Installer.sh
-- chmod u+x Termux_Installer.sh && ./interface.sh
+# Kali, ParrotOS Installation 
+- chmod u+x & && ./Kali_Installer.sh
+- chmod u+x * && ./Parrot_Os_Installer.sh
+
+# Kali, ParrotOS Interface
+- ./interface.sh
+
+# Termux Installation 
+- chmod u+x Termux_Installer.sh
+
+# Termux Interface
+- ./termuxinterface.sh
 
 # Compatible
 - Android Led TV, Termux, Linux, Unix, Windows 
