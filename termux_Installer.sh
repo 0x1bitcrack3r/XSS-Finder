@@ -41,6 +41,8 @@ echo -e "Installing Modules"
 pip2 install -r requirements.txt
 pip2 install httplib2
 pip2 install mechanize
+pip2 install html
+pip2 install termcolor
 pkg install curl
 pkg install ruby
 gem install watir
