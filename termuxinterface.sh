@@ -8,10 +8,10 @@ off="\e[0m"
 clear
 function banner() {
 echo "      
-Loader  : XSS Finder & Scanner, Termux ver 1.9a
-Coders  : Shadab Siddique, Haroon Awan, HackerUniversee
-Web     : fb.com/mubassir.py, fb.com/officialharoonawan
-Channel : youtube.com/c/HackerUniverse
+Loader: XSS Finder & Scanner, Termux ver 1.9a
+Coders: Shadab Siddique, Haroon Awan, Arun S
+Web   : fb.com/mubassir.py, fb.com/officialharoonawan
+Ytube : youtube.com/c/HackerUniverse
 "
 }
 banner
@@ -24,7 +24,7 @@ banner
  echo -e "$red [$green+$red]  6:$off Show File Upload XSS Version";
  echo -e "$red [$green+$red]  7:$off Blind XSS Version ";
  echo -e "$red [$green+$red]  8:$off Blind XSS Server ";
- echo -e "$red [$green+$red]  9:$off Cookies/Link/Referer/User-Agent/Host/Location/Trace XSS";
+ echo -e "$red [$green+$red]  9:$off Extra HTTP Temperings for XSS";
  echo -e "$red [$green+$red] 10:$off Dump Values of Server";
  echo -e "$red [$green+$red] 11:$off Live Dom Sink Scanner - Third Party Tool";
  echo -e "$red [$green+$red] 12:$off Cached Page XSS ";
