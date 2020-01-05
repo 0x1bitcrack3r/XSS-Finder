@@ -27,6 +27,10 @@ banner
  echo -e "$red [$green+$red] 10:$off Dump Values of Server";
  echo -e "$red [$green+$red] 11:$off Live Dom Sink Scanner - Third Party Tool";
  echo -e "$red [$green+$red] 12:$off Cached Page XSS ";
+ echo -e "$red [$green+$red] 13:$off Anti IDS Tactics (type 1) ";
+ echo -e "$red [$green+$red] 14:$off Anti IDS Tactics (type 2) ";
+ echo -e "$red [$green+$red] 15:$off Anti IDS Tactics (type 3) ";
+ echo -e "$red [$green+$red] 16:$off Anti IDS Tactics (type 4) ";
  echo "";
  echo -ne "$red [$green+$red] Select An Option:$off: " ;
  read Option
@@ -347,3 +351,124 @@ then
 then
 ./cached.sh  
  fi 
+
+ if [ $Option -eq "13" ]
+ then
+ echo -e "$red [$green+$red] 1:$off ScreamingCobra Anti IDS (type 1) GET Version  ";
+ echo -e "$red [$green+$red] 2:$off ScreamingCobra Anti IDS (type 1) POST Version  ";
+ echo -e "$red [$green+$red] 3:$off ScreamingCobra Anti IDS (type 1) HEAD Version  ";
+ echo -e "$red [$green+$red] 4:$off ScreamingCobra Anti IDS (type 1) Fake Request Version  ";
+ echo "";
+ echo -ne "$red [$green+$red] Select An Option:$off: " ;
+ read Option
+    if [ $Option -eq "1" ]
+    then
+python ScreamingCobra_anti-ids_get1.py
+    fi
+    
+    if [ $Option -eq "2" ]
+    then
+python ScreamingCobra_anti-ids_post1.py
+    fi
+    
+    if [ $Option -eq "3" ]
+    then
+python ScreamingCobra_anti-ids_head1.py  
+    fi
+
+    if [ $Option -eq "4" ]
+    then
+python ScreamingCobra_anti-ids_fakerequest1.py
+    fi
+ fi
+
+ if [ $Option -eq "14" ]
+ then
+ echo -e "$red [$green+$red] 1:$off ScreamingCobra Anti IDS (type 2) GET Version  ";
+ echo -e "$red [$green+$red] 2:$off ScreamingCobra Anti IDS (type 2) POST Version  ";
+ echo -e "$red [$green+$red] 3:$off ScreamingCobra Anti IDS (type 2) HEAD Version  ";
+ echo -e "$red [$green+$red] 4:$off ScreamingCobra Anti IDS (type 2) Fake Request Version  ";
+ echo "";
+ echo -ne "$red [$green+$red] Select An Option:$off: " ;
+ read Option
+    if [ $Option -eq "1" ]
+    then
+python ScreamingCobra_anti-ids_get2.py
+    fi
+    
+    if [ $Option -eq "2" ]
+    then
+python ScreamingCobra_anti-ids_post2.py
+    fi
+    
+    if [ $Option -eq "3" ]
+    then
+python ScreamingCobra_anti-ids_head2.py  
+    fi
+
+    if [ $Option -eq "4" ]
+    then
+python ScreamingCobra_anti-ids_fakerequest2.py
+    fi
+fi
+
+ if [ $Option -eq "15" ]
+ then
+ echo -e "$red [$green+$red] 1:$off ScreamingCobra Anti IDS (type 3) GET Version  ";
+ echo -e "$red [$green+$red] 2:$off ScreamingCobra Anti IDS (type 3) POST Version  ";
+ echo -e "$red [$green+$red] 3:$off ScreamingCobra Anti IDS (type 3) HEAD Version  ";
+ echo -e "$red [$green+$red] 4:$off ScreamingCobra Anti IDS (type 3) Fake Request Version  ";
+ echo "";
+ echo -ne "$red [$green+$red] Select An Option:$off: " ;
+ read Option
+    if [ $Option -eq "1" ]
+    then
+python ScreamingCobra_anti-ids_get3.py
+    fi
+    
+    if [ $Option -eq "2" ]
+    then
+python ScreamingCobra_anti-ids_post3.py
+    fi
+    
+    if [ $Option -eq "3" ]
+    then
+python ScreamingCobra_anti-ids_head3.py  
+    fi
+
+    if [ $Option -eq "4" ]
+    then
+python ScreamingCobra_anti-ids_fakerequest3.py
+    fi
+fi
+
+ if [ $Option -eq "16" ]
+ then
+ echo -e "$red [$green+$red] 1:$off ScreamingCobra Anti IDS (type 4) GET Version  ";
+ echo -e "$red [$green+$red] 2:$off ScreamingCobra Anti IDS (type 4) POST Version  ";
+ echo -e "$red [$green+$red] 3:$off ScreamingCobra Anti IDS (type 4) HEAD Version  ";
+ echo -e "$red [$green+$red] 4:$off ScreamingCobra Anti IDS (type 4) Fake Request Version  ";
+ echo "";
+ echo -ne "$red [$green+$red] Select An Option:$off: " ;
+ read Option
+    if [ $Option -eq "1" ]
+    then
+python ScreamingCobra_anti-ids_get4.py
+    fi
+    
+    if [ $Option -eq "2" ]
+    then
+python ScreamingCobra_anti-ids_post4.py
+    fi
+    
+    if [ $Option -eq "3" ]
+    then
+python ScreamingCobra_anti-ids_head4.py  
+    fi
+
+    if [ $Option -eq "4" ]
+    then
+python ScreamingCobra_anti-ids_fakerequest4.py
+    fi
+
+ fi
