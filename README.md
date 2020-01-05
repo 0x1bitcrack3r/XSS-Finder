@@ -2,8 +2,7 @@
 
 # XSS-Finder
 - World's Most Powerful and Advanced Cross Site Scripting Software
-- Find XSS on any path of URL, URI, URN, Forms, Directory, Hashed Dom Link, Dom Sink or Parameter
-- Anti IDS Tactics for Cross Site Scripting
+- Find XSS on any path of URL, URI, URN, Forms, Directory, Hashed Dom Link, Dom Sink or Parameters
 - Useful for Newbies to Pro
 
 # License
@@ -49,6 +48,9 @@
 - HTTP Trace with fake headers XSS
 - Dump server values for Forms
 - Dump server values for Parameters
+
+# Anti IDS Tactics
+- Build with handcrafted Anti IDS payloads for Cross Site Scriptingand
 
 # Blind XSS Server
 - Host Blind xss server in your pc with outbound to inbound connection
