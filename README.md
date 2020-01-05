@@ -14,7 +14,7 @@
 
 # Screenshots
 <div align="center">
-    <img src="https://i.ibb.co/4t9Wm0w/xssfinder1.png" width="600px"</img> 
+    <img src="https://i.ibb.co/XJzhVw0/Screamingcobra2.png" width="600px"</img> 
 </div>
 <div align="center">
     <img src="https://i.ibb.co/Pg3H3g6/Xssfinder2.png" width="600px"</img> 
