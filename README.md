@@ -3,6 +3,7 @@
 # XSS-Finder
 - World's Most Powerful and Advanced Cross Site Scripting Software
 - Find XSS on any path of URL, URI, URN, Forms, Directory, Hashed Dom Link, Dom Sink or Parameter
+- Anti IDS Tactics for Cross Site Scripting
 - Useful for Newbies to Pro
 
 # License
